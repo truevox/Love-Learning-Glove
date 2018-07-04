@@ -1,4 +1,5 @@
 import serial
+import time
 time.sleep(5)
 serial = serial.Serial("/dev/whatever", 50000)
 data = "Tight" + "\n"
